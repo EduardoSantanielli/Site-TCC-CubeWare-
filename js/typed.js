@@ -6,7 +6,6 @@ var TxtType = function(el, toRotate, period) {
   this.txt = '';
   this.tick();
   this.isDeleting = false;
-  this.fix-margin-3;
 };
 
 TxtType.prototype.tick = function() {

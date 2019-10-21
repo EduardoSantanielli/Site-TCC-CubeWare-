@@ -196,10 +196,10 @@ hr {
 }
 
 #cb {
-    margin-left: 11.4%;
+    margin-left: 10.4%;
     margin-top: 5%;
     font-family: 'Open Sans', sans-serif;
-    font-style: bold; 
+    font-weight: bold; 
     color: white;   
     font-size: 30px;
 }
@@ -209,7 +209,7 @@ hr {
     margin-left: 29%;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-style: bold;
+    font-weight: bold;
 }
 
 
