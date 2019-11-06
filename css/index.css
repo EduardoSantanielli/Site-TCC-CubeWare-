@@ -167,6 +167,7 @@ hr {
     border-color: purple;
     border-width: 3px;
     align-content: center;
+    margin-bottom: 3%;
 }
 
 #tst {
@@ -297,6 +298,7 @@ hr {
 #ctm{
     font-size: 20px;
     color:white; 
+    font-family: 'Raleway', sans-serif;
     margin-top: 1.455456%;   
 }
 .fa-eye{
@@ -308,6 +310,7 @@ hr {
 #ctv{
     font-size: 20px;
     color:white; 
+    font-family: 'Raleway', sans-serif;
     margin-top: 1.455456%;   
 }
 .fa-trophy{
@@ -317,8 +320,9 @@ hr {
     margin-top: 5%;
 }
 #ctv{
-    font-size: 20px;
+    font-size: 20   px;
     color:white; 
+    font-family: 'Raleway', sans-serif;
     margin-top: 1.455456%;  
     padding-bottom: 10%; 
 }
@@ -329,4 +333,31 @@ h2{
 #empr{      
     margin-left: 50%;
     margin-top: 10%;
+}
+.prjs{
+    background-color: #fff;
+}
+#aprj{
+    color: #1f1d21;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5%;
+}
+.rodape{
+    background-color: #1f1d21;
+    width: 100%;
+    height: 350px;
+}
+#hrz{
+    margin-bottom: 5%;
+}
+.context{
+    margin-top: 30px;
+}
+#sp{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
 }
