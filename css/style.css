@@ -9,6 +9,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.misvisval{
+    margin-bottom: 10%;
+    background: linear-gradient(to bottom #151b26, rgba(0,0,0,0.6));
+    width: 90%;margin-left: 5%;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -16,6 +21,7 @@ html {
 body {
     background-color: #151b26;
     font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
 }
 
 a {
@@ -95,7 +101,7 @@ img {
     left: 0;
 }
 
-.btn-close {
+.menu .btn-close {
     font-size: 1.5em;
     color: white;
     float: right;
@@ -295,7 +301,7 @@ img {
         height: 40%;
     }
     .menu ul {
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .equipe {
         width: 100%;
@@ -356,8 +362,10 @@ img {
     }
     .menu{
         margin-top: 10%;
+        width: 60%;
+        margin-left: 20%;
+        text-transform: uppercase;
     }
-    .menu ul{margin-bottom: 5%;}
     .equipe {
         display: none;
     }
@@ -403,6 +411,9 @@ img {
     }
     .menu {
         display: none;
+    }
+    .menu ul {
+        margin-top: 0;
     }
     .banner {
         height: 40%;
