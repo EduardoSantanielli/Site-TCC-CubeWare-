@@ -36,12 +36,14 @@ img {
     max-width: 100%;
 }
 
+
 .cabecalho {
     width: 100%;
     float: left;
     padding: 3% 4%;
     background-color: #151b26;
 }
+
 
 .tit{
     color: white;
@@ -174,7 +176,7 @@ img {
 .membros {
     width: 98%;
     float: left;
-    padding: 3% 4%;
+    padding: 2% 3%;
     display: none;
 }
 
@@ -213,6 +215,21 @@ img {
 
 img {
     width: 100%;
+}
+
+#carouselExampleControls{
+    width: 80%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+.carousel-control-prev-icon{
+    margin-top: 50%;
+}
+.carousel-control-next-icon{
+    margin-top: 50%;
+}
+.contact1-pic{
+    margin-left: 20%;
 }
 
 .rodape {
@@ -286,6 +303,7 @@ img {
     .membros:nth-child(2) {
         margin-right: 0;
     }
+    #membros{display: none;}
 }
 
 @media screen and (min-width:624px) {
@@ -374,6 +392,12 @@ img {
         float: left;
         margin: 2%;
     }
+    .membro .fa-times{
+        font-size: 8em;
+        margin-left: 25%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
     .membros {
         margin-left: 5%;
         width: 90%;
@@ -387,6 +411,21 @@ img {
     }
     .membros{
         display: block
+    }
+    .projetos{
+        width: 90%;
+    }
+    .projeto{
+        width: 60%;
+        float: left;
+        margin-left: 25%;
+    }   
+    #prj{
+        float: left;
+        margin-left: 50%;
+        color: #d63dcf;
+        font-weight: 700;
+        margin-bottom: 5%;
     }
 }
 
@@ -439,5 +478,8 @@ img {
     }
     .membros{
         display: block
+    }
+    .membro .fa-times{
+        font-size: 20em;
     }
 }
