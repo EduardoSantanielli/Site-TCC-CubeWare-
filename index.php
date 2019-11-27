@@ -115,7 +115,7 @@
                 </a>
             </div>
         </main>
-        <div class="contact1">
+        <form method="POST" action="processa.php" class="contact1">
 		<div class="container-contact1" id="container-contact1">
 			<div class="contact1-pic js-tilt" data-tilt>
 				<img src="images/img-01.png" alt="IMG">
@@ -147,7 +147,7 @@
 				</div>
 
 				<div class="container-contact1-form-btn">
-					<button class="contact1-form-btn">
+					<input type="submit" value="enviar" class="contact1-form-btn">
 						<span>
 							Enviar Email
 							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
