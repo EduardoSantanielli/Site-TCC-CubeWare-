@@ -179,12 +179,36 @@ img {
     padding: 2% 3%;
     display: none;
 }
-
+.projetoss{
+    background-color: #1a2230;
+    margin-top: 30%;
+    border-radius: 7px 7px 7px 7px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+.projetoss p{
+    margin-top: 2.5%;
+    font-weight: 600;
+    color: #465774;
+    margin-bottom: 2.5%;
+    padding-bottom: 2%;
+}
+.container-contact1{
+    border-radius: 7px 7px 7px 7px;
+}
 .membro {
     width: 100%;
     background-color: #1a2230;
     text-align: left;
     border-radius: 7px;
+    margin-bottom: 3%;
+}
+
+#tittcc{
+    color: #896df0;
+    font-size: 1.5em;
+    margin-top: 5%;
+    margin-left: 10%;
     margin-bottom: 3%;
 }
 
@@ -216,10 +240,18 @@ img {
 img {
     width: 100%;
 }
+#prj{
+    width: 100%;
+    margin-left: 40%;
+    color: #d63dcf;
+    font-weight: 700;
+    margin-bottom: 5%;
+    font-size: 2em;
+}
 
 #carouselExampleControls{
     width: 80%;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-bottom: 10%;
 }
 .carousel-control-prev-icon{
@@ -269,6 +301,14 @@ img {
         background: url(../img/logo.png) center center/56px no-repeat;
         font-size: 0;
     }
+    #prj{
+        width: 100%;
+        margin-left: 35%;
+        color: #d63dcf;
+        font-weight: 700;
+        margin-bottom: 5%;
+        font-size: 2em;
+    }
     .tit {
         display: none;
     }
@@ -284,6 +324,9 @@ img {
         margin-top: 20%;
         border-radius: 7px;
     }
+    .typewrite{
+        font-size: 0.6em;
+    }
     .menu ul {
         margin-top: 10%;
     }
@@ -293,12 +336,13 @@ img {
         margin: 5%;
     }
     .membros {
-        margin-left: 4%;
-        width: 92%;
+        margin-left: 2.5%;
+        width: 95%;
         background-color: #1a2230;
         text-align: left;
         border-radius: 7px;
         margin-bottom: 3%;
+        margin-top: 10%;
     }
     .membros:nth-child(2) {
         margin-right: 0;
@@ -314,6 +358,14 @@ img {
     }
     .title {
         margin-top: 10%;
+    }
+    #prj{
+        width: 100%;
+        margin-left: 40%;
+        color: #d63dcf;
+        font-weight: 700;
+        margin-bottom: 5%;
+        font-size: 2em;
     }
     .banner {
         height: 40%;
@@ -338,12 +390,24 @@ img {
         text-align: left;
         border-radius: 7px;
         margin-bottom: 3%;
+        margin-top: 30%;
     }
     .membros:nth-child(2) {
         margin-right: 0;
     }
-    .btn-membros {
-        display: none;
+    .btn-membros{width: 60%;
+    margin-left: 20%;}
+    .btn-membros .i{
+        float: left;
+        margin-left: 5%;
+    }
+    .projetoss{
+        margin-top: 30%;
+    }
+    .membros{width: 95%;
+    margin-left: 2.5%;}
+    .btn-membros h1{
+        float: right;
     }
     .membros{
         display: block
@@ -355,6 +419,14 @@ img {
         margin-top: 5%;
         display: show;
         margin-left: 1%;
+        font-size: 2em;
+    }
+    #prj{
+        width: 100%;
+        margin-left: 50%;
+        color: #d63dcf;
+        font-weight: 700;
+        margin-bottom: 5%;
         font-size: 2em;
     }
     .title {
@@ -377,6 +449,9 @@ img {
     }
     .menu ul {
         margin-top: 0;
+    }
+    .membros{
+        margin-top: 2%;
     }
     .menu{
         margin-top: 10%;
@@ -406,8 +481,9 @@ img {
         border-radius: 7px;
         margin-bottom: 3%;
     }
-    .btn-membros {
-        display: none;
+    .btn-membros{
+        width: 40%;
+        margin-left: 30%;
     }
     .membros{
         display: block
@@ -419,13 +495,21 @@ img {
         width: 60%;
         float: left;
         margin-left: 25%;
-    }   
+    }  
+    .projetoss{
+        margin-top: 5%;
+    }
+    #carouselExampleControls{
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
     #prj{
-        float: left;
-        margin-left: 50%;
-        color: #d63dcf;
-        font-weight: 700;
-        margin-bottom: 5%;
+        margin-left: 42.5%;
+    }
+    #tittcc{
+        margin-left: 5%;
     }
 }
 
@@ -434,6 +518,19 @@ img {
         margin-top: 5%;
         display: show;
         margin-left: 1%;
+        font-size: 2em;
+    }
+    #carouselExampleControls{
+        width: 90%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+    #prj{
+        width: 90%;
+        margin-left: 60%;
+        color: #d63dcf;
+        font-weight: 700;
+        margin-bottom: 5%;
         font-size: 2em;
     }
     .title {
@@ -473,13 +570,13 @@ img {
         border-radius: 7px;
         margin-bottom: 3%;
     }
-    .btn-membros {
-        display: none;
-    }
     .membros{
         display: block
     }
     .membro .fa-times{
         font-size: 20em;
+    }
+    .container-contact1{
+        margin-top: 5%;
     }
 }
