@@ -301,6 +301,12 @@ img {
         background: url(../img/logo.png) center center/56px no-repeat;
         font-size: 0;
     }
+    .carousel-control-prev-icon{
+        margin-top: 0%;
+    }
+    .carousel-control-next-icon{
+        margin-top: 0%;
+    }
     #prj{
         width: 100%;
         margin-left: 35%;
